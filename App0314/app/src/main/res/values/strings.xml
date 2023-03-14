@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">App0314</string>
+    <string name="fruit1">사과</string>
+    <string name="fruit2">포도</string>
+    <string name="fruit3">오렌지</string>
+    <string name="fruit4">파인애플</string>
+    <string name="fruit5">맥북애플</string>
 </resources>
