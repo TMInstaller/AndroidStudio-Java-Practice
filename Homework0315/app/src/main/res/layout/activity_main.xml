@@ -6,9 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    첫 번째 버튼 = 두 문자 더해서 textView에 출력
-        두 번째 버튼 = 첫 번째 문자열 문자 개수 textView에 출력
-        세 번째 버튼 = 두 번째 문자열 문자 개수 textView에 출력
--->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="101dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="1dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="591dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
