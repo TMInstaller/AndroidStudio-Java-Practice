@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App0315</string>
+    <string name="btn3_txt">Open Naver</string>
+    <string name="btn4_txt">Open 119</string>
+    <string name="btn5_txt">Open Galary</string>
+    <string name="btn6_txt">Finish</string>
 </resources>
