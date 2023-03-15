@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Homework0314</string>
+    <string name="btn1">버튼하나</string>
+    <string name="btn2">버튼둘</string>
+    <string name="btn3">버튼셋</string>
+    <string name="btn4">버튼넷</string>
+    <string name="btn5">버튼다섯</string>
+    <string name="btn6">버튼여섯</string>
 </resources>
