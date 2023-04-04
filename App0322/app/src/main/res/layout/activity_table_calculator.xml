@@ -17,7 +17,7 @@
             android:layout_span="5"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="숫자 1" />
     </TableRow>
 
     <TableRow
@@ -31,7 +31,7 @@
             android:layout_span="5"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="숫자 2" />
     </TableRow>
 
     <TableRow
