@@ -22,13 +22,15 @@ public class MainActivity5 extends AppCompatActivity {
         btnPrev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                viewFlipper.showPrevious();
+//                viewFlipper.showPrevious();
+                viewFlipper.startFlipping();
             }
         });
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                viewFlipper.showNext();
+//                viewFlipper.showNext();
+                viewFlipper.stopFlipping();
             }
         });
     }
